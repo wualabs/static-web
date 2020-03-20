@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+<link rel="icon" href="/img/favicon.png" sizes="128x128" type="image/png">
+
+<title>Contacto</title>
+
+<meta name="generator" content="Hugo 0.54.0" />
+<link rel="stylesheet" href="/css/owl.carousel.css" />
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/font-awesome.min.css" />
+<link rel="stylesheet" href="/css/ionicons.min.css" />
+<link rel="stylesheet" href="/css/animate.css" />
+<link rel="stylesheet" href="/css/syntax.css" />
+<link rel="stylesheet" href="/css/venobox.css" />
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="/css/style.css" />
+
+    <link rel="stylesheet" href="/css/site.css">
+
+
+
+<script src="/js/jquery-1.10.2.min.js"></script>
+<script async src="/js/bootstrap.min.js"></script>
+<script async src="/js/owl.carousel.min.js"></script>
+<script async src="/js/plugins.js"></script>
+<script async src="/js/venobox.min.js"></script>
+<script async src="/js/main.js"></script>
+
+
+</head>
+<body>
+
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="es/">
+                <img src="/img/logo.png" alt="WuaLabs Logo">
+              </a>
+              <h1 class="navbar-text" >WuaLabs</h1>
+            </div>
+            
+
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/es">Inicio</a></li>
+                
+                <li><a href="/es/contact/">Contacto</a></li>
+                
+                
+                <li><a href="/">English</a></li>
+                
+                <li><a href="/es/">Español</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+	
+	
+		
+<section id="global-header" style="background-image: url('/img/slider-bg.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>Contacto</h1>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+        <div class="block">
+          <h1><p>¿Tienes algo que decirnos? ¡No dudes en contactarnos!</p>
+</h1>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+<section id="contact-form">
+  <form id="contactForm" action="//contact-form.wualabs.com" method="POST">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+            <div class="form-group">
+              <input type="text" class="form-control" name="name" minlength="2" required placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="replyto" required placeholder="Tu email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" minlength="10" required placeholder="Asunto">
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+            <div class="form-group-2">
+              <textarea class="form-control" rows="3" name="message" minlength="15" required placeholder="Tu mensaje"></textarea>
+            </div>
+            <button id="btnSend" class="btn btn-default" type="submit">Enviar mensaje</button>  
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="alertSentOk" class="alert alert-success alert-dismissible text-center hidden" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              <strong>¡Mensaje enviado!</strong>
+          </div>
+          <div id="alertSentNOk" class="alert alert-danger alert-dismissible text-center hidden" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              <strong>Ha habido un error enviando el mensaje. Inténtelo más tarde por favor.</strong>
+          </div>
+        </div> 
+      </div>
+      </div>
+    </div>
+  </form>
+    
+</section>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/localization/messages_es.js"></script>
+<script>
+  (function ($) {
+    $.fn.toJSON = function () {
+        var o = {};
+        var a = this.serializeArray();
+        $.each(a, function () {
+            if (o[this.name]) {
+                if (!o[this.name].push) {
+                    o[this.name] = [o[this.name]];
+                }
+                o[this.name].push(this.value || '');
+            } else {
+                o[this.name] = this.value || '';
+            }
+        });
+        return o;
+    };
+  })(jQuery);
+  function showAlert(id) {
+    $("#"+id).fadeIn().removeClass("hidden").fadeIn(600).delay(3000).fadeOut(1000, function() {
+      $(this).addClass("hidden");
+    });
+  }
+  $("#contactForm").validate({
+    submitHandler: function(form) {
+      $("#btnSend").prop('disabled', true);
+      var $form = $( form );
+      var url = $form.attr("action");
+      var formData = $form.toJSON();
+      $.ajax({
+          url : url,
+          type : 'POST',
+          data : JSON.stringify(formData),
+          dataType: 'json',
+          cache: false,
+          contentType: "application/json",
+          success : function(data) {
+            $("#btnSend").prop('disabled', false);
+            console.log(data);
+            showAlert("alertSentOk");
+          },
+          error: function(jqXHR, status, error) {
+            $("#btnSend").prop('disabled', false);
+            console.log("Error ", jqXHR, status, error);
+            showAlert("alertSentNOk");
+          }
+      });
+    }
+  });
+</script>
+
+	
+
+	
+
+	
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            
+            <li><a href="/es/acerca-de">Acerca de</a></li>
+            
+            <li><a href="/es/contact">Contacto</a></li>
+            
+          </ul>
+        </div>
+        <p>&copy; 2019 Wualabs LTD Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

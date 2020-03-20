@@ -1,0 +1,36 @@
+/*--
+	about Start
+--*/
+#about {
+  padding: 1em 0 0;
+}
+
+#about .block h2 {
+  padding-top: 1em;
+  line-height: 27px;
+  margin: 0;
+}
+
+#about .block p {
+  color: #7b7b7b;
+  padding-top: 0.5em;
+}
+
+#about .block img {
+  padding-top: 4em;
+  width: 100%;
+}
+
+#about .section-title {
+  margin-bottom: 0px;
+}
+
+#about .section-title p {
+  padding-top: 10px;
+}
+
+#about .image-credits {
+  font-size: 0.75em;
+  padding-top: 0.1em;
+  text-align: right;
+}

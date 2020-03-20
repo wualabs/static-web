@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WuaLabs</title>
+    <link>/es/</link>
+    <description>Recent content on WuaLabs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>2019 Wualabs LTD</copyright>
+    
+	<atom:link href="/es/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acerca de nosotros</title>
+      <link>/es/acerca-de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/acerca-de/</guid>
+      <description> Wualabs crea interfaces conversacionales (ej: chatbots), aplicaciones, código y herramientas que conectan a las personas con las computadoras aprovechando el lenguaje humano. Nuestra misión: Keep It eaSy Software. &amp;trade; </description>
+    </item>
+    
+    <item>
+      <title>Contacto</title>
+      <link>/es/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/contact/</guid>
+      <description>¿Tienes algo que decirnos? ¡No dudes en contactarnos!</description>
+    </item>
+    
+    <item>
+      <title>Servicios</title>
+      <link>/es/service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trabajos</title>
+      <link>/es/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/work/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
